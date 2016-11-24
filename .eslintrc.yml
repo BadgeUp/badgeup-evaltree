@@ -1,0 +1,19 @@
+env:
+  es6: true
+  node: true
+  mocha: true
+parserOptions:
+  ecmaVersion: 8
+extends: 'eslint:recommended'
+rules:
+  indent:
+    - error
+    - 4
+  linebreak-style:
+    - error
+    - unix
+  quotes:
+    - 0
+  semi:
+    - error
+    - always
