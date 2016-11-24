@@ -1,5 +1,5 @@
 {
-  "name": "badgeup-evaltree",
+  "name": "@badgeup/badgeup-evaltree",
   "version": "1.0.0",
   "description": "Achievement eval tree utility functions",
   "main": "index.js",
