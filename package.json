@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/MarkHerhold/badgeup-evaltree.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Mark Herhold <mark@badgeup.io>",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/MarkHerhold/badgeup-evaltree/issues"
   },
