@@ -1,19 +1,19 @@
 {
   "name": "@badgeup/badgeup-evaltree",
   "version": "1.0.0",
-  "description": "Achievement eval tree utility functions",
+  "description": "BadgeUp achievement evaluation tree utility functions",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MarkHerhold/badgeup-evaltree.git"
+    "url": "git+https://github.com/BadgeUp/badgeup-evaltree.git"
   },
   "author": "Mark Herhold <mark@badgeup.io>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MarkHerhold/badgeup-evaltree/issues"
+    "url": "https://github.com/BadgeUp/badgeup-evaltree/issues"
   },
-  "homepage": "https://github.com/MarkHerhold/badgeup-evaltree#readme"
+  "homepage": "https://github.com/BadgeUp/badgeup-evaltree#readme"
 }
