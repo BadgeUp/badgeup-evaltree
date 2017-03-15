@@ -8,8 +8,9 @@
 //     criteria: [],
 //     groups: [] // more of this schema
 // }
-function traverseEvalTree(group, fn) {
-    if (group && fn) {
+function traverseEvalTree(group, fn, { depthFirst = false }) {
+    // If recursing breadth-first, evaluate the function first before going deeper
+    if (!depthFirst && group && fn) {
         fn(group);
     }
 
@@ -20,6 +21,11 @@ function traverseEvalTree(group, fn) {
 
     for (let nested of group.groups) {
         traverseEvalTree(nested, fn);
+    }
+
+    // If recursing depth-first, evaluate the function after before going deeper
+    if (depthFirst && group && fn) {
+        fn(group);
     }
 }
 
