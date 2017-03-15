@@ -9,7 +9,6 @@
 //     groups: [] // more of this schema
 // }
 function traverseEvalTree(group, fn) {
-    // extract and keep only the id
     if (group && fn) {
         fn(group);
     }
