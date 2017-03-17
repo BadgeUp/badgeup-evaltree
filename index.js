@@ -11,17 +11,16 @@
 function traverseEvalTree(group, fn, options = {}) {
     const { depthFirst = false } = options;
 
+    if (!group) {
+        return;
+    }
+
     // If recursing breadth-first, evaluate the function first before going deeper
     if (!depthFirst && group && fn) {
         fn(group);
     }
 
-    // BASE CASE
-    if (!group || !group.groups || !group.groups.length) {
-        return;
-    }
-
-    for (let nested of group.groups) {
+    for (let nested of (group.groups || [])) {
         traverseEvalTree(nested, fn, options);
     }
 
