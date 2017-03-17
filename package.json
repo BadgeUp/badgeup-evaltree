@@ -1,6 +1,6 @@
 {
   "name": "@badgeup/badgeup-evaltree",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "BadgeUp achievement evaluation tree utility functions",
   "main": "index.js",
   "scripts": {
